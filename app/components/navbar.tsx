@@ -30,7 +30,7 @@ export default function Navbar() {
           : "bg-[#FAF6F4]/40 backdrop-blur-md border-[#111111]/10"
       }`}
     >
-      <div className="w-full max-w-6xl mx-auto flex items-stretch justify-between h-16 sm:h-[72px]">
+      <div className="w-full max-w-6xl mx-auto flex items-stretch justify-between h-16 sm:h-18">
         <div className="flex items-center px-6 md:px-10 border-r border-[#111111]/10">
           <Link
             href="/"
@@ -56,7 +56,7 @@ export default function Navbar() {
             <Link
               key={link.href}
               href={link.href}
-              className="group relative flex items-center gap-2 px-6 lg:px-7 border-l border-[#111111]/10 text-xs sm:text-sm font-semibold text-[#111111] hover:bg-[#111111]/[0.03] transition-colors overflow-hidden"
+              className="group relative flex items-center gap-2 px-6 lg:px-7 border-l border-[#111111]/10 text-xs sm:text-sm font-semibold text-[#111111] `hover:bg-[#111111]/3 transition-colors overflow-hidden"
             >
               <span className="text-[10px] font-mono font-bold text-[#E87A54]">
                 /{link.num}
@@ -74,7 +74,7 @@ export default function Navbar() {
               </span>
               <span
                 aria-hidden="true"
-                className="absolute bottom-0 left-0 h-[3px] w-full scale-x-0 origin-left bg-[#E87A54] transition-transform duration-300 group-hover:scale-x-100"
+                className="absolute bottom-0 left-0 h-0.75 w-full scale-x-0 origin-left bg-[#E87A54] transition-transform duration-300 group-hover:scale-x-100"
               />
             </Link>
           ))}
