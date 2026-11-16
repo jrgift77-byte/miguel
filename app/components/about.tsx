@@ -39,13 +39,13 @@ export default function About() {
 
         <div className="relative z-10">
           <div className="flex items-center gap-2">
-            <span className="text-[#E87A54] text-xs">✳</span>
-            <p className="text-xs sm:text-sm font-bold uppercase tracking-wider text-[#111111]">
+            <span className="text-[#E87A54] text-2xl">✳</span>
+            <p className="text-2xl sm:text-sm font-bold uppercase tracking-wider text-[#111111]">
               MY APPROACH
             </p>
           </div>
 
-          <p className="text-xs sm:text-sm leading-relaxed text-[#222222] mt-2 max-w-3xl">
+          <p className="text-2xl sm:text-sm leading-relaxed text-[#222222] mt-2 max-w-3xl">
             &quot;Good Marketing Is More Than Just Posting Content. It&apos;s
             About Understanding Audiences, Creating Meaningful Connections And
             Turning Creative Ideas Into Strategies That Help Brands Grow.&quot;
