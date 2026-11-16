@@ -34,6 +34,39 @@ const projects = [
     image: "/edgars.jpeg",
     alt: "Edgars Stores Zimbabwe Paid Ad Campaign",
   },
+  {
+    number: "04",
+    title: "SHEARWATER VICTORIA FALLS",
+    subtitle: "Adventure & Tourism Campaign",
+    details: [
+      "10 Unique Ad Concepts For Adventure,",
+      "Travel & Tourism Brand Storytelling",
+    ],
+    image: "/shearwater.jpeg",
+    alt: "Shearwater Victoria Falls Premium Campaign 2026",
+  },
+  {
+    number: "05",
+    title: "NIVEA SKINCARE PRODUCT",
+    subtitle: "Product Presentation & Branding",
+    details: [
+      "Daily Skincare Campaign Concept,",
+      "Product Positioning And Visual Presentation",
+    ],
+    image: "/nivea.jpeg",
+    alt: "NIVEA Skincare Product Presentation",
+  },
+  {
+    number: "06",
+    title: "NIKE SOCIAL MEDIA STRATEGY",
+    subtitle: "Social Media Marketing Strategy",
+    details: [
+      "Turning Attention Into Action Through",
+      "High-Impact Athletic Storytelling And Engagement",
+    ],
+    image: "/nike.jpeg",
+    alt: "Nike Social Media Marketing Strategy",
+  },
 ];
 
 export default function Work() {
@@ -42,7 +75,6 @@ export default function Work() {
       id="work"
       className="w-full max-w-5xl mx-auto px-6 md:px-12 pt-14 pb-16"
     >
-     
       <div>
         <span className="inline-block text-[10px] font-bold uppercase tracking-widest text-[#E87A54] bg-[#FCEBE3] px-2.5 py-0.5 rounded-full mb-1.5">
           Portfolio
@@ -56,14 +88,12 @@ export default function Work() {
         </p>
       </div>
 
-      
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mt-7">
         {projects.map((project) => (
           <article
             key={project.title}
             className="group flex flex-col rounded-2xl border border-[#222222]/15 bg-white/60 p-4 hover:border-[#E87A54] hover:bg-[#FCEBE3]/40 hover:shadow-md transition-all duration-300"
           >
-            
             <div className="relative w-full aspect-16/10 rounded-xl overflow-hidden bg-[#E6C5B5]/40">
               <Image
                 src={project.image}
@@ -76,7 +106,6 @@ export default function Work() {
               </span>
             </div>
 
-            
             <div className="pt-4 px-1 flex-1 flex flex-col justify-between">
               <div>
                 <div className="flex items-start justify-between gap-2">
