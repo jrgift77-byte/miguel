@@ -18,7 +18,7 @@ export default function Footer() {
               href="/"
               className="inline-block text-2xl sm:text-3xl font-black tracking-tight text-white"
             >
-              MD<span className="text-[#E87A54]">.</span>
+              Miguel<span className="text-[#E87A54]">.</span>
             </Link>
             <p className="text-xs sm:text-sm font-medium text-[#F9C6B3]">
               Miguel Dube — Digital Marketer &amp; Graphic Designer
